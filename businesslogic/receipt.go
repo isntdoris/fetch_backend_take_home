@@ -14,6 +14,7 @@ import (
 )
 
 // var pointsStore = make(map[string]int)
+// use sync.Map for concurrent consideration
 var pointsStore sync.Map
 
 var (
